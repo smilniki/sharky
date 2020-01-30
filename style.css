@@ -1,0 +1,124 @@
+body {
+	background-color: none;
+	font-family: 'Lato';
+	margin-bottom: 50px;
+}
+
+/* main page title */
+#sharky-title {
+	color: lightblue;
+	font-size: 16px;
+ 	text-align: center;
+ 	padding-top: 50px;
+ 	padding-bottom: 20px;
+ 	opacity: 0; /* used in fade-in */
+}
+
+/* main page project description */
+#desc {
+	font-size: 12px;
+ 	text-align: center;
+ 	opacity: 0; /* used in fade-in */
+}
+
+/* main page map svg */
+#map-svg {
+	opacity: 0; /* used in fade-in */
+}
+svg { /* all svg elements on main page */
+	display: block;
+	margin: auto;
+	background-color: none;
+}
+
+/* main page legend */
+#legend1 {
+	padding: 30px;
+}
+#legend-rect, .y-axis { /* used in fade-in */
+	opacity: 0;
+}
+
+/* main page tooltips on hover */
+#tooltip, #tooltip2 {
+	font-size: 12px;
+ 	text-align: center;
+}
+
+/* data source link displayed on all pages on bottom right */
+#data-source {
+	font-size: 16px;
+	color: gray;
+	text-decoration: none;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+}
+
+/* State-page specific styling */
+
+/* 'back to map' button for state pages */
+#back {
+	font-size: 16px;
+ 	text-align: left;
+}
+
+#state-title {
+	color: transparent;
+	font-size: 20px;
+ 	text-align: center;
+ 	padding-top: 50px;
+ 	padding-bottom: 20px;
+ 	opacity: 0;
+}
+
+#state-subtitle {
+	font-size: 16px;
+	text-align: center;
+	opacity: 0;
+}
+
+#scroll-down {
+	font-size: 16px;
+	text-align: center;
+	opacity: 0;
+	padding-top: 20px;
+}
+
+#total-attacks, #fatalities {
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+	opacity: 0;
+}
+
+#state-info {
+	text-align: center;
+}
+
+.pie-svg {
+	display: inline-block;
+}
+#gender-svg, #age-svg, #activity-svg {
+	opacity: 0;
+}
+
+#data-table {
+	font-size: 12px;
+	padding: 100px;
+	padding-bottom: 20px;
+	opacity: 0;
+}
+
+#data-table-title {
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	opacity: 0;
+}
+
+
+tr.clickable-row { 
+	cursor: pointer; 
+} 
